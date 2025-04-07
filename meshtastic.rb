@@ -3,17 +3,12 @@ class Meshtastic < Formula
 
   desc "The Python CLI and API for talking to Meshtastic devices"
   homepage "https://github.com/meshtastic/python"
-  url "https://github.com/meshtastic/python/archive/2.6.0.tar.gz"
-  sha256 "3c59a4738516b73c19b12c6afe9a098fbffb5c66a1a9fdb5c69ee24c1ffa2fce"
+  url "https://github.com/meshtastic/python/archive/2.6.1.tar.gz"
+  sha256 "07d7e6fcc49346da696a36b4c726b0d5137cf5832f8bd6cffcf6ce75e74b8773"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
   depends_on "python@3.13"
-
-  resource "argcomplete" do
-    url "https://files.pythonhosted.org/packages/7f/03/581b1c29d88fffaa08abbced2e628c34dd92d32f1adaed7e42fc416938b0/argcomplete-3.5.2.tar.gz"
-    sha256 "23146ed7ac4403b70bd6026402468942ceba34a6732255b9edf5b7354f68a6bb"
-  end
 
   resource "bleak" do
     url "https://files.pythonhosted.org/packages/fb/96/15750b50c0018338e2cce30de939130971ebfdf4f9d6d56c960f5657daad/bleak-0.22.3.tar.gz"
@@ -41,8 +36,8 @@ class Meshtastic < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/55/de/8216061897a67b2ffe302fd51aaa76bbf613001f01cd96e2416a4955dd2b/protobuf-6.30.1.tar.gz"
-    sha256 "535fb4e44d0236893d5cf1263a0f706f1160b689a7ab962e9da8a9ce4050b780"
+    url "https://files.pythonhosted.org/packages/c8/8c/cf2ac658216eebe49eaedf1e06bc06cbf6a143469236294a1171a51357c3/protobuf-6.30.2.tar.gz"
+    sha256 "35c859ae076d8c56054c25b59e5e59638d86545ed6e2b6efac6be0b6ea3ba048"
   end
 
   resource "pyobjc-core" do
