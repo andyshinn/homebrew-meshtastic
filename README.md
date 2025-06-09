@@ -25,3 +25,11 @@ When updating the version we need to also run `update-python-resources` and ensu
 ```
 brew update-python-resources --extra-packages argcomplete meshtastic.rb
 ```
+
+You can get the new SHA256 by running:
+
+```
+brew fetch --build-from-source --formula meshtastic.rb
+```
+
+Then copy the SHA256 from the output and paste it into the `sha256` field in `meshtastic.rb`.
