@@ -20,7 +20,15 @@ meshtastic --help
 
 ## Updating
 
-When updating the version we need to also run `update-python-resources` and ensure it keeps `argcomplete` since we need it for setting the automcompletion.
+You can get the SHA256 sum of the release by running:
+
+```
+curl -sSL https://github.com/meshtastic/python/archive/2.6.4.tar.gz | sha256sum
+```
+
+Be sure to replace with the actual updated version. Then update the `sha256` field in `meshtastic.rb` with the output of the above command.
+
+After updating the version we need to also run `update-python-resources` and ensure it keeps `argcomplete` since we need it for setting the automcompletion.
 
 ```
 brew update-python-resources --extra-packages argcomplete meshtastic.rb

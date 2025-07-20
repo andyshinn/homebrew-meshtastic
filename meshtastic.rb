@@ -4,7 +4,7 @@ class Meshtastic < Formula
   desc "The Python CLI and API for talking to Meshtastic devices"
   homepage "https://github.com/meshtastic/python"
   url "https://github.com/meshtastic/python/archive/2.6.4.tar.gz"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "2c87ded4ecc04735f65f2e4b1b1ac137e59e1d829b540627bac409bcb83a3ee3"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
