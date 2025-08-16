@@ -3,8 +3,8 @@ class Meshtastic < Formula
 
   desc "The Python CLI and API for talking to Meshtastic devices"
   homepage "https://github.com/meshtastic/python"
-  url "https://github.com/meshtastic/python/archive/2.6.4.tar.gz"
-  sha256 "2c87ded4ecc04735f65f2e4b1b1ac137e59e1d829b540627bac409bcb83a3ee3"
+  url "https://github.com/meshtastic/python/archive/2.7.0.tar.gz"
+  sha256 "0ba25a5e2d737b6ac1f2c23ff985ee6f56933a7c8248239942cbf0d30227f635"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
@@ -21,13 +21,13 @@ class Meshtastic < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/b3/76/52c535bcebe74590f296d6c77c86dabf761c41980e1347a2422e4aa2ae41/certifi-2025.7.14.tar.gz"
-    sha256 "8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995"
+    url "https://files.pythonhosted.org/packages/dc/67/960ebe6bf230a96cda2e0abcf73af550ec4f090005363542f0765df162e0/certifi-2025.8.3.tar.gz"
+    sha256 "e564105f78ded564e3ae7c923924435e1daa7463faeab5bb932bc53ffae63407"
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e4/33/89c2ced2b67d1c2a61c19c6751aa8902d46ce3dacb23600a283619f5a12d/charset_normalizer-3.4.2.tar.gz"
-    sha256 "5baececa9ecba31eff645232d59845c07aa030f0c81ee70184a90d35099a0e63"
+    url "https://files.pythonhosted.org/packages/83/2d/5fd176ceb9b2fc619e63405525573493ca23441330fcdaee6bef9460e924/charset_normalizer-3.4.3.tar.gz"
+    sha256 "6fce4b8500244f6fcb71465d4a4930d132ba9ab8e71a7859e6a5d59851068d14"
   end
 
   resource "idna" do
@@ -41,8 +41,8 @@ class Meshtastic < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/52/f3/b9655a711b32c19720253f6f06326faf90580834e2e83f840472d752bc8b/protobuf-6.31.1.tar.gz"
-    sha256 "d8cac4c982f0b957a4dc73a80e2ea24fab08e679c0de9deb835f4a12d69aca9a"
+    url "https://files.pythonhosted.org/packages/c0/df/fb4a8eeea482eca989b51cffd274aac2ee24e825f0bf3cbce5281fa1567b/protobuf-6.32.0.tar.gz"
+    sha256 "a81439049127067fc49ec1d36e25c6ee1d1a2b7be930675f919258d03c04e7d2"
   end
 
   resource "pyobjc-core" do
@@ -66,8 +66,8 @@ class Meshtastic < Formula
   end
 
   resource "pypubsub" do
-    url "https://files.pythonhosted.org/packages/1a/41/a0aceb552d8ec63bb1e8223d130f9dd0f736470036d75d708183b104a2cb/Pypubsub-4.0.3-py3-none-any.whl"
-    sha256 "7f716bae9388afe01ff82b264ba8a96a8ae78b42bb1f114f2716ca8f9e404e2a"
+    url "https://files.pythonhosted.org/packages/23/64/e7907a632cfbd76fd17e86ed6279422345958cf9fdc8216d95d13d9fee1b/pypubsub-4.0.3.tar.gz"
+    sha256 "32d662de3ade0fb0880da92df209c62a4803684de5ccb8d19421c92747a258c7"
   end
 
   resource "pyserial" do
