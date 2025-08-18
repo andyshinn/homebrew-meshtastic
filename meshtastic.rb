@@ -3,8 +3,8 @@ class Meshtastic < Formula
 
   desc "The Python CLI and API for talking to Meshtastic devices"
   homepage "https://github.com/meshtastic/python"
-  url "https://github.com/meshtastic/python/archive/2.7.0.tar.gz"
-  sha256 "0ba25a5e2d737b6ac1f2c23ff985ee6f56933a7c8248239942cbf0d30227f635"
+  url "https://github.com/meshtastic/python/archive/d53ced216c429ee88b3324b24cbc0c2b83069f84.tar.gz"
+  sha256 "766f4dbf713dc1d5abde277d449a52ce6315cf1bf5a6a0058e49456a6a36ed97"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
@@ -81,8 +81,8 @@ class Meshtastic < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/e1/0a/929373653770d8a0d7ea76c37de6e41f11eb07559b103b1c02cafb3f7cf8/requests-2.32.4.tar.gz"
-    sha256 "27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422"
+    url "https://files.pythonhosted.org/packages/c9/74/b3ff8e6c8446842c3f5c837e9c3dfcfe2018ea6ecef224c710c85ef728f4/requests-2.32.5.tar.gz"
+    sha256 "dbba0bac56e100853db0ea71b82b4dfd5fe2bf6d3754a8893c3af500cec7d7cf"
   end
 
   resource "tabulate" do
