@@ -3,8 +3,8 @@ class Meshtastic < Formula
 
   desc "The Python CLI and API for talking to Meshtastic devices"
   homepage "https://github.com/meshtastic/python"
-  url "https://github.com/meshtastic/python/archive/d53ced216c429ee88b3324b24cbc0c2b83069f84.tar.gz"
-  sha256 "766f4dbf713dc1d5abde277d449a52ce6315cf1bf5a6a0058e49456a6a36ed97"
+  url "https://github.com/meshtastic/python/archive/2.7.3.tar.gz"
+  sha256 "2258ad62acf3a78eecc7802d1ecacad5de0ef0f42ef29d0b0a15a544dcb2fbc1"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
@@ -41,8 +41,8 @@ class Meshtastic < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/c0/df/fb4a8eeea482eca989b51cffd274aac2ee24e825f0bf3cbce5281fa1567b/protobuf-6.32.0.tar.gz"
-    sha256 "a81439049127067fc49ec1d36e25c6ee1d1a2b7be930675f919258d03c04e7d2"
+    url "https://files.pythonhosted.org/packages/fa/a4/cc17347aa2897568beece2e674674359f911d6fe21b0b8d6268cd42727ac/protobuf-6.32.1.tar.gz"
+    sha256 "ee2469e4a021474ab9baafea6cd070e5bf27c7d29433504ddea1a4ee5850f68d"
   end
 
   resource "pyobjc-core" do
