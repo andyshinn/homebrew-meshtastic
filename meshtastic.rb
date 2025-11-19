@@ -3,8 +3,8 @@ class Meshtastic < Formula
 
   desc "The Python CLI and API for talking to Meshtastic devices"
   homepage "https://github.com/meshtastic/python"
-  url "https://github.com/meshtastic/python/archive/2.7.3.tar.gz"
-  sha256 "2258ad62acf3a78eecc7802d1ecacad5de0ef0f42ef29d0b0a15a544dcb2fbc1"
+  url "https://github.com/meshtastic/python/archive/2.7.5.tar.gz"
+  sha256 "9df1389bc90db7e9804e57b1617c8de6b68093077483fa48df4963ed829866b6"
   license "GPL-3.0-only"
 
   depends_on "libyaml"
@@ -41,8 +41,8 @@ class Meshtastic < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/fa/a4/cc17347aa2897568beece2e674674359f911d6fe21b0b8d6268cd42727ac/protobuf-6.32.1.tar.gz"
-    sha256 "ee2469e4a021474ab9baafea6cd070e5bf27c7d29433504ddea1a4ee5850f68d"
+    url "https://files.pythonhosted.org/packages/c0/df/fb4a8eeea482eca989b51cffd274aac2ee24e825f0bf3cbce5281fa1567b/protobuf-6.32.0.tar.gz"
+    sha256 "a81439049127067fc49ec1d36e25c6ee1d1a2b7be930675f919258d03c04e7d2"
   end
 
   resource "pyobjc-core" do
@@ -50,12 +50,12 @@ class Meshtastic < Formula
     sha256 "dbf1475d864ce594288ce03e94e3a98dc7f0e4639971eb1e312bdf6661c21e0e"
   end
 
-  resource "pyobjc-framework-cocoa" do
+  resource "pyobjc-framework-Cocoa" do
     url "https://files.pythonhosted.org/packages/39/41/4f09a5e9a6769b4dafb293ea597ed693cc0def0e07867ad0a42664f530b6/pyobjc_framework_cocoa-10.3.2.tar.gz"
     sha256 "673968e5435845bef969bfe374f31a1a6dc660c98608d2b84d5cae6eafa5c39d"
   end
 
-  resource "pyobjc-framework-corebluetooth" do
+  resource "pyobjc-framework-CoreBluetooth" do
     url "https://files.pythonhosted.org/packages/13/ca/35d205c3e153e7bc59a417560a45e27a2410439e6f78390f97c1a996c922/pyobjc_framework_corebluetooth-10.3.2.tar.gz"
     sha256 "c0a077bc3a2466271efa382c1e024630bc43cc6f9ab8f3f97431ad08b1ad52bb"
   end
@@ -65,7 +65,7 @@ class Meshtastic < Formula
     sha256 "e9f4311fbf8df602852557a98d2a64f37a9d363acf4d75634120251bbc7b7304"
   end
 
-  resource "pypubsub" do
+  resource "Pypubsub" do
     url "https://files.pythonhosted.org/packages/23/64/e7907a632cfbd76fd17e86ed6279422345958cf9fdc8216d95d13d9fee1b/pypubsub-4.0.3.tar.gz"
     sha256 "32d662de3ade0fb0880da92df209c62a4803684de5ccb8d19421c92747a258c7"
   end
@@ -75,14 +75,14 @@ class Meshtastic < Formula
     sha256 "3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb"
   end
 
-  resource "pyyaml" do
+  resource "PyYAML" do
     url "https://files.pythonhosted.org/packages/54/ed/79a089b6be93607fa5cdaedf301d7dfb23af5f25c398d5ead2525b063e17/pyyaml-6.0.2.tar.gz"
     sha256 "d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e"
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/c9/74/b3ff8e6c8446842c3f5c837e9c3dfcfe2018ea6ecef224c710c85ef728f4/requests-2.32.5.tar.gz"
-    sha256 "dbba0bac56e100853db0ea71b82b4dfd5fe2bf6d3754a8893c3af500cec7d7cf"
+    url "https://files.pythonhosted.org/packages/e1/0a/929373653770d8a0d7ea76c37de6e41f11eb07559b103b1c02cafb3f7cf8/requests-2.32.4.tar.gz"
+    sha256 "27d0316682c8a29834d3264820024b62a36942083d52caf2f14c0591336d3422"
   end
 
   resource "tabulate" do
