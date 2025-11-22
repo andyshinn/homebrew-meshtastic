@@ -1,6 +1,6 @@
-# homebrew-meshtastic
+# homebrew-mesh
 
-A basic Homebrew Tap for the Meshtastic Python CLI.
+A basic Homebrew Tap for the Meshtastic and MeshCore Python CLIs.
 
 
 ## Usage
@@ -8,14 +8,16 @@ A basic Homebrew Tap for the Meshtastic Python CLI.
 Add the tap and then install the CLI using:
 
 ```
-brew tap andyshinn/meshtastic
+brew tap andyshinn/mesh
 brew install meshtastic
+brew install meshcore-cli
 ```
 
-Meshtastic CLI should now be available:
+Meshtastic and MeshCore CLIs should now be available:
 
 ```
 meshtastic --help
+meshcore-cli -h
 ```
 
 ## Updating
